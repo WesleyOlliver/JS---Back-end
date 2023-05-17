@@ -9,6 +9,8 @@ console.log(numero == palavra);
 
 console.log(numero === palavra);
 
+// typeof nos dara como informação qual é o tipo do valor da variável "chamada".
+
 console.log(typeof numero);
 console.log(typeof palavra);
 
