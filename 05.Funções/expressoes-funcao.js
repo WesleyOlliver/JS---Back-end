@@ -1,2 +1,5 @@
-const soma = function(num1, num2) {return num1 + num2};
-console.log(soma(1, 1));
+// Expressão de função: quando escrevemos um código utulizando este método percebemos que ele fica mais "enxuto", usando menos linha de código para realizar com sucesso a execução do mesmo (tendo em vista que o objetivo da maneira "tradional" de escrever uma função nos retornará ao mesmo resultado). É percebido que a função se torna anônima, não possuindo um nome para chamar ela no momento da execução.
+const soma = function(num1, num2) {return num1 + num2};    // => num1 = 1 : num2 = 1
+console.log(soma(1, 1));                                   // => 1 + 1 = 2
+
+// Usando este método temos que ter em mente que o código começou com a descrição "const", sendo assim perante ao JavaScript ele inicialmente seguirá os fundamentos de uma variável (constante), posteriormente ela tomará os critérios de função conforme for declarada, conclui-se que para ser usado este método de expressão de uma função devemos declarar ela inicialmente em nosso código, ou antes de queremos executar, para não ocorrer erros ou bugs em nosso código.
